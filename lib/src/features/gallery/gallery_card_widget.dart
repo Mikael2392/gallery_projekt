@@ -23,7 +23,7 @@ class MyGalleryCardWidget extends StatelessWidget {
             builder: (context) => DetailScreen(
               imageUrl: imageUrl,
               title: title,
-              desciption: 'DFERGRGRE',
+              desciption: description,
               description: '',
             ),
           ),

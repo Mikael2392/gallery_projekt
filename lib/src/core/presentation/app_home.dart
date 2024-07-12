@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:gallery_projekt/src/features/gallery/my_gallery.dart';
+import 'package:gallery_projekt/src/features/gallery/my_gallery_Screen.dart';
 import 'package:gallery_projekt/src/features/profile/profile-screen.dart';
 
 class AppHome extends StatefulWidget {
@@ -20,8 +20,11 @@ class _AppHomeState extends State<AppHome> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('MyGallery'),
-        backgroundColor: Color.fromRGBO(241, 241, 241, 0.965),
+        title: const Text(
+          'MyGallery',
+          style: TextStyle(color: Colors.white),
+        ),
+        backgroundColor: Color.fromRGBO(100, 27, 27, 0.965),
       ),
       bottomNavigationBar: NavigationBar(
         onDestinationSelected: (int index) {
@@ -29,7 +32,7 @@ class _AppHomeState extends State<AppHome> {
             currentIndex = index;
           });
         },
-        indicatorColor: const Color.fromARGB(255, 100, 0, 30),
+        indicatorColor: const Color.fromRGBO(100, 27, 0, 30),
         selectedIndex: currentIndex,
         destinations: const [
           NavigationDestination(icon: Icon(Icons.image), label: 'Bilder'),

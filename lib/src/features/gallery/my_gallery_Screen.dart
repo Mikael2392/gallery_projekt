@@ -20,7 +20,8 @@ class MyGalleryScreen extends StatelessWidget {
                       imageUrl:
                           "https://media.istockphoto.com/id/871413098/de/foto/tennis-ball-auf-wei%C3%9F-line.jpg?s=612x612&w=0&k=20&c=tZDgTkUEEwcL9L1PO1vMShICL3prsx1ku9KIm723up0=",
                       title: "Tenis",
-                      description: 'dfbnfghhgfrg',
+                      description:
+                          'Berühmte Spieler wie Roger Federer, Rafael Nadal, Serena Williams und Novak Djokovic haben das moderne Tennis geprägt und zahlreiche Rekorde gebrochen',
                     ),
                   ),
                   SizedBox(width: 4),
@@ -29,7 +30,8 @@ class MyGalleryScreen extends StatelessWidget {
                       imageUrl:
                           "https://media.istockphoto.com/id/1498158836/de/foto/ein-baseball-schl%C3%A4gt-durch-eine-zementwand-konzept-der-st%C3%A4rke.jpg?s=1024x1024&w=is&k=20&c=4qqeoDVctbi3U-wVk901J1SV4FkYuFmqyaeeN_xhGuI=",
                       title: "Baseball",
-                      description: 'grereeeee',
+                      description:
+                          '	•	Major League Baseball (MLB): Die höchste professionelle Liga in den USA.',
                     ),
                   ),
                 ],
@@ -87,44 +89,3 @@ class MyGalleryScreen extends StatelessWidget {
     );
   }
 }
-  
-
-    
-    
-    
-    
-    /*const Center(
-      child: Column(
-        children: [
-          SizedBox(
-            height: 8,
-          ),
-          SizedBox(
-            height: 24,
-          ),
-          Expanded(
-            child: SingleChildScrollView(
-              child: Column(
-                children: [
-                  MyGalleryCardWidget(
-                      imageUrl:
-                          "https://media.istockphoto.com/id/2150738350/de/foto/tennisball-auf-sandplatz-mit-kopierraum.jpg?s=1024x1024&w=is&k=20&c=WJjFZC38DxJLrMLd98xmeuToYblzhKN90EqERsMMtGY=",
-                      title: "Tenis"),
-                  MyGalleryCardWidget(
-                      imageUrl:
-                          "https://media.istockphoto.com/id/1498158836/de/foto/ein-baseball-schl%C3%A4gt-durch-eine-zementwand-konzept-der-st%C3%A4rke.jpg?s=1024x1024&w=is&k=20&c=4qqeoDVctbi3U-wVk901J1SV4FkYuFmqyaeeN_xhGuI=",
-                      title: "Baseball"),
-                  MyGalleryCardWidget(
-                      imageUrl:
-                          "https://images.unsplash.com/photo-1519861531473-9200262188bf?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                      title: "Basketball")
-                ],
-              ),
-            ),
-          ),
-        ],
-      ),
-    );
-  }
-}
-*/
