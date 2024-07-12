@@ -4,6 +4,8 @@ import 'package:gallery_projekt/src/features/gallery/gallery_card_widget.dart';
 class MyGalleryScreen extends StatelessWidget {
   const MyGalleryScreen({super.key});
 
+  get rs => null;
+
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
@@ -45,7 +47,7 @@ class MyGalleryScreen extends StatelessWidget {
                       imageUrl:
                           "https://images.unsplash.com/photo-1519861531473-9200262188bf?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                       title: "Basketball",
-                      description: 'rrrrsrssrsrs',
+                      description: "rrrrsrssrs",
                     ),
                   ),
                   SizedBox(width: 8),
